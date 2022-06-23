@@ -1,0 +1,56 @@
+.item-card {
+    border: 1.4px solid #485470;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+}
+
+.picture {
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+.picture img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.top h3 {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #485470
+}
+
+.top span {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #99A7C7;
+}
+
+.middle {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.middle p {
+    margin-right: 4px;
+    color: #485470
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}

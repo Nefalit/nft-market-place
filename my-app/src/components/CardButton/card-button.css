@@ -1,0 +1,26 @@
+.card-button {
+    display: flex;
+    align-items: center;
+    border-radius: 22px;
+    border: 1px solid #485470;
+    padding: 8px 16px 8px 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.card-button span {
+    margin-right: 16px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #485470;
+}
+
+.card-button img {
+    transition: transform 0.25s;
+}
+
+.card-button img:hover {
+    transform: translateX(-4px);
+}
