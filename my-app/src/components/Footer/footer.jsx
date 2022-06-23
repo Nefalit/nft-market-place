@@ -12,7 +12,7 @@ export const Footer = (props) => {
             <div className="wrapper">
                 <div className="top-line">
                     <div className='company-desc'>
-                        <img src={logo} alt="" />
+                        <img src={logo} alt=""/>
                         <p>The world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.</p>
                     </div>
                     <div className='links'>
@@ -22,7 +22,7 @@ export const Footer = (props) => {
                         <a href="">Collectibles</a>
                         <a href="">Domain Names</a>
                         <a href="">Music</a>
-                        <a href="">Photograhpy</a>
+                        <a href="">Photography</a>
                         <a href="">Sports</a>
                         <a href="">Trading cards</a>
                         <a href="">Utility</a>
