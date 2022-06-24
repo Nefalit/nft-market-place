@@ -1,5 +1,8 @@
-.item-card {
-    border: 1.4px solid #485470;
+@value light-blue: #99A7C7;
+@value dark-blue: #485470;
+
+.itemCard {
+    border: 1.4px solid dark-blue;
     border-radius: 8px;
     padding: 20px;
     width: 100%;
@@ -29,7 +32,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
-    color: #485470
+    color: dark-blue;
 }
 
 .top span {
@@ -37,7 +40,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    color: #99A7C7;
+    color: light-blue ;
 }
 
 .middle {
@@ -47,10 +50,16 @@
 
 .middle p {
     margin-right: 4px;
-    color: #485470
+    color: dark-blue;
 }
 
 .bottom {
     display: flex;
     justify-content: space-between;
+}
+
+.bottom img {
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: ;
 }

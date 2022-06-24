@@ -1,10 +1,10 @@
 import React from "react";
-import './card-button.css'; 
+import css from './card-button.module.css'; 
 import Arrow from '../../img/Arrow.svg';
 
 export const CardButton = (props) => {
     return (
-        <button className="card-button"> 
+        <button className={css.cardButton}> 
             <span>{ props.text }</span> 
             <img src={Arrow} alt="" />
         </button>

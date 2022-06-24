@@ -1,26 +1,35 @@
-.card-button {
+@value light-green: #56E39F;
+@value dark-blue: #485470;
+
+.cardButton {
     display: flex;
     align-items: center;
     border-radius: 22px;
-    border: 1px solid #485470;
+    border: 1px solid dark-blue;
     padding: 8px 16px 8px 20px;
     background-color: white;
     cursor: pointer;
+    transition: 0.2s;
 }
 
-.card-button span {
+.cardButton:hover {
+   transition: 0.2s;
+   background-color: light-green;
+}
+
+.cardButton span {
     margin-right: 16px;
     font-family: 'Manrope';
     font-size: 16px;
     line-height: 22px;
     font-weight: 700;
-    color: #485470;
+    color: dark-blue;
 }
 
-.card-button img {
+.cardButton img {
     transition: transform 0.25s;
 }
 
-.card-button img:hover {
+.cardButton img:hover {
     transform: translateX(-4px);
 }
