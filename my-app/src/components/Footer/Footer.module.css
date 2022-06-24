@@ -1,5 +1,11 @@
+@value grey: #485470;
+@value light-green: #36F599;
+@value dark-blue: #284B54;
+
+
+
 footer {
-    background-color: #485470;
+    background-color: grey;
     padding: 0 68px;
 }
 
@@ -8,7 +14,7 @@ footer {
     margin: 0 auto;
 }
 
-.top-line {
+.topLine {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -21,12 +27,12 @@ a {
     text-decoration: none;
 }
 
-.company-desc {
+.companyDesc {
     max-width: 420px;
     line-height: 24px;
 }
 
-.company-desc img {
+.companyDesc img {
     margin-bottom: 16px;
     display: block;
 }
@@ -38,11 +44,11 @@ a {
 }
 
 .links a:hover {
-    color: #36F599;;
+    color: light-green;
 }
 
 .links h3 {
-    color: #36F599;
+    color: light-green;
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
@@ -53,7 +59,7 @@ a {
     margin-top: 22px;
 }
 
-.bottom-line {
+.bottomLine {
     border-top: 1px solid white;
     display: flex;
     align-items: center;
@@ -66,7 +72,7 @@ a {
 }
 
 .socials a {
-    background-color: #284B54;
+    background-color: dark-blue;
     border-radius: 50%;
     padding: 7px;
     display: block;
