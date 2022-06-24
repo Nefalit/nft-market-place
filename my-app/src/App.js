@@ -1,6 +1,7 @@
 import './App.css';
 import { SmallCard } from './components/SmallCard/small-card.jsx';
 import smallcard from './img/smallcard.png';
+import { Footer } from './components/Footer/footer.jsx';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           imagePath={smallcard}>
         </SmallCard>
       </div>
+      <Footer/>
     </div>
   );
 }
