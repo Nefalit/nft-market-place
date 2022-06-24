@@ -6,7 +6,7 @@ export const CardButton = (props) => {
     return (
         <button className={css.cardButton}> 
             <span>{ props.text }</span> 
-            <img src={Arrow} alt="" />
+            <img src={Arrow} alt="arrow" />
         </button>
     )
 }
