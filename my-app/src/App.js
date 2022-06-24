@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import { SmallCard } from './components/SmallCard/small-card.jsx';
+import smallcard from './img/smallcard.png';
 import { Footer } from './components/Footer/footer.jsx';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='grid'>
+        <SmallCard 
+          name="Cute Morning Cafe" 
+          price="30.5" 
+          currency="SOL" 
+          author="Ben Colfex"
+          imagePath={smallcard}>
+        </SmallCard>
+      </div>
       <Footer/>
     </div>
   );
