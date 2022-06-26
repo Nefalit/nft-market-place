@@ -1,3 +1,76 @@
-.header_container{
-    background-color: aqua;
+.header {
+  padding: 15px;
+  background-color: #fcfbfb;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-header-text);
+}
+
+.navList {
+  display: flex;
+  gap: 42px;
+}
+
+.navLink {
+  font-size: 17px;
+  line-height: 1.29;
+  font-family: var(--support-font);
+  font-weight: 500;
+  color: var(--color-header-text);
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+}
+
+.headerInput {
+  width: 161px;
+  height: 45px;
+  margin-right: 12px;
+  padding: 11px 11px 11px 44px;
+  outline: transparent;
+  border: 1px solid var(--color-header-text);
+  border-radius: 30px;
+}
+
+.searchBtn {
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  fill: currentColor;
+}
+
+.themeWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox {
+  width: 21px;
+  height: 21px;
+
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.checkbox:checked + .moon {
+  fill: red;
+}
+
+.sun {
+  width: 25px;
+  height: 25px;
 }

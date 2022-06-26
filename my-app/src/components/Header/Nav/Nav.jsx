@@ -1,16 +1,16 @@
+import styles from "../header.module.css";
 
-import styles from "../header.module.css"
-
-
-function Nav({arr}) {
+function Nav({ arr }) {
   const navList = arr.map((el) => (
     <li key={el} className="listEl">
-      <a href="./">{el}</a>
+      <a className={styles.navLink} href="./">
+        {el}
+      </a>
     </li>
   ));
   return (
     <nav className="nav">
-      <ul className="navList">{navList}</ul>
+      <ul className={styles.navList}>{navList}</ul>
     </nav>
   );
 }
