@@ -1,8 +1,8 @@
 import React from "react";
 import  css from './big-card.module.css'; 
 import { CardButton } from "../CardButton/card-button.jsx";
+import { CardLikeButton } from "../CardLikeButton/card-like-button.jsx";
 import approve from '../../img/approve.svg';
-import like from '../../img/like.svg';
 
 export const BigCard = (props) => {
     return (
@@ -37,7 +37,7 @@ export const BigCard = (props) => {
                 </div>
                 <div className={css.bottom}>
                     <CardButton text="Buy now"/>
-                    <img src={like} alt="like" />
+                    <CardLikeButton/>
                 </div>
             </div>
         </div>

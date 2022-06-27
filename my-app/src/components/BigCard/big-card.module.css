@@ -61,10 +61,12 @@
 .underMiddle {
     display: flex;
     margin-bottom: 48px;
+
 }
 
 .underMiddle img {
     margin-right: 8px;
+    cursor: pointer;
 }
 
 .underMiddle h3 {
@@ -73,6 +75,7 @@
     font-size: 17px;
     line-height: 23px;
     color: dark-blue;
+    cursor: pointer;
 }
 
 .underMiddle span {
@@ -97,8 +100,11 @@
     justify-content: space-between;
 }
 
-.bottom img {
+.bigButtonImg {
     cursor: pointer;
     transition: 0.2s;
-    background-color: ;
+}
+
+.bigButtonImg:hover {
+    transform: scale(1.2);
 }
