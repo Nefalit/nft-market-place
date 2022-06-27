@@ -3,6 +3,9 @@
 @value dark-blue: #284B54;
 
 
+* {
+    color: white;
+}
 
 footer {
     background-color: grey;

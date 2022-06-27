@@ -13,4 +13,5 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 24px;
   padding: 68px;
+  width: 100%;
 }
