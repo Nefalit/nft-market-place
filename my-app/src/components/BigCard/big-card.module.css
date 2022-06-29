@@ -2,7 +2,7 @@
 @value dark-blue: #485470;
 
 .itemCard {
-    border: 1.4px solid dark-blue;
+    border: 1.6px solid dark-blue;
     border-radius: 8px;
     padding: 20px;
     grid-column: 1 / span 2;
