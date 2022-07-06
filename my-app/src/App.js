@@ -1,8 +1,9 @@
 import './App.css';
 import { SmallCard } from './components/SmallCard/small-card.jsx';
-import smallcard from './img/smallcard.png';
+import { HomePage } from './components/Home page/Home-page.jsx';
 import { Footer } from './components/Footer/footer.jsx';
 import {BigCard} from './components/BigCard/big-card.jsx';
+import smallcard from './img/smallcard.png';
 import bigcard from './img/bigcard.png';
 import owner from './img/owner.png';
 import creator from './img/creator.png';
@@ -11,7 +12,7 @@ import creator from './img/creator.png';
 function App() {
   return (
     <div className="App">
-
+        <HomePage></HomePage>
       <div className='grid'>
         <BigCard
           name="Cute Good Morning Cafe NFTs" 
