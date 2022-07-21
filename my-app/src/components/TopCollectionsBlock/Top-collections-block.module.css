@@ -1,0 +1,28 @@
+@value light-blue: #99A7C7;
+@value dark-blue: #485470;
+@value light-green: #36F599;
+
+.collections {
+    padding: 64px;
+}
+
+.collections h2 {
+    color: dark-blue;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 36px;
+}
+
+.collections h2 span {
+    color: light-green;
+}
+
+.collectionGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-column-gap: 154px;
+    grid-row-gap: 22px;
+
+}
