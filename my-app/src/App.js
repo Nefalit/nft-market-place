@@ -1,6 +1,6 @@
 import './App.css';
 import { SmallCard } from './components/SmallCard/small-card.jsx';
-import { HomePage } from './components/Home page/Home-page.jsx';
+import { HomePage } from './components/Home page/home-page.jsx';
 import { TopCollectionsBlock } from './components/TopCollectionsBlock/Top-collections-block.jsx';
 import { Footer } from './components/Footer/footer.jsx';
 import {BigCard} from './components/BigCard/big-card.jsx';
@@ -8,6 +8,7 @@ import smallcard from './img/smallcard.png';
 import bigcard from './img/bigcard.png';
 import owner from './img/owner.png';
 import creator from './img/creator.png';
+import {NftCollectionCard} from './components/NFTCollectionList/nft-collection-list.jsx';
 
 
 
@@ -86,6 +87,7 @@ function App() {
           imagePath={smallcard}>
         </SmallCard>
       </div>
+      <NftCollectionCard/>
       <Footer/>
     </div>
   );
