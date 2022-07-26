@@ -1,4 +1,5 @@
 import './App.css';
+import Header from "./components/Header/header.jsx";
 import { SmallCard } from './components/SmallCard/small-card.jsx';
 import { HomePage } from './components/Home page/home-page.jsx';
 import { TopCollectionsBlock } from './components/TopCollectionsBlock/Top-collections-block.jsx';
@@ -16,10 +17,10 @@ import category from './img/category.svg';
 import sortBy from './img/sortBy.svg';
 
 
-
 function App() {
   return (
     <div className="App">
+      <Header />
         <HomePage></HomePage>
         <TopCollectionsBlock>
         </TopCollectionsBlock>
