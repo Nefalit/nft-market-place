@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/Header/Header";
+import Header from "./components/Header/header.jsx";
 import { SmallCard } from "./components/SmallCard/small-card.jsx";
 import smallcard from "./img/smallcard.png";
 import { Footer } from "./components/Footer/footer.jsx";
