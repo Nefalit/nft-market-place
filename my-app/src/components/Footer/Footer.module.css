@@ -1,0 +1,102 @@
+@value grey: #485470;
+@value light-green: #36F599;
+@value dark-blue: #284B54;
+
+
+* {
+    color: white;
+}
+
+footer {
+    background-color: grey;
+    padding: 0 68px;
+    margin-top: 38px;
+}
+
+.wrapper {
+    max-width: 1462px;
+    margin: 0 auto;
+}
+
+.topLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 74px;
+    margin-bottom: 52px;
+    max-width: 1300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.companyDesc {
+    max-width: 420px;
+    line-height: 24px;
+}
+
+.companyDesc img {
+    margin-bottom: 16px;
+    display: block;
+}
+
+.links a {
+    display: block;
+    line-height: 32px;
+    width: fit-content;
+}
+
+.links a:hover {
+    color: light-green;
+}
+
+.links h3 {
+    color: light-green;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px ;
+}
+
+.links h3:not(:first-of-type) {
+    margin-top: 22px;
+}
+
+.bottomLine {
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0 32px;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials a {
+    background-color: dark-blue;
+    border-radius: 50%;
+    padding: 7px;
+    display: block;
+}
+
+.socials a:not(:first-child) {
+    margin-left: 8px;
+}
+
+.socials a img {
+    display: block;
+    transition: 0.5s;
+}
+
+.socials a img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.copywrite p {
+    font-size: 16px;
+    line-height: 24px;
+}

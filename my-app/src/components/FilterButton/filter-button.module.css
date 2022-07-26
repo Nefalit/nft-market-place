@@ -1,0 +1,41 @@
+@value light-green: #56E39F;
+@value dark-blue: #485470;
+
+.filterButton {
+    display: flex;
+    align-items: center;
+    border-radius: 22px;
+    border: 1px solid dark-blue;
+    padding: 8px 16px 8px 20px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.filterButton:hover {
+   transition: 0.2s;
+   background-color: light-green;
+}
+
+.filterButton img {
+    transition: transform 0.25s;
+    margin-right: 10px;
+}
+
+.filterButton:hover img {
+    transform: translateX(-4px);
+}
+
+.filterButton span {
+    font-family: 'Manrope';
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: dark-blue;
+    transition: transform 0.25s;
+}
+
+.filterButton:hover span {
+    transform: translateX(4px);
+}
+

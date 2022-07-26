@@ -1,0 +1,21 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 68px;
+}
+
+.leftCorner {
+    display: flex;
+}
+
+.sort {
+    margin-right: 14px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 24px;
+    padding:  30px 68px;
+    width: 100%;
+  }

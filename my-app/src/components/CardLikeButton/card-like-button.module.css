@@ -1,0 +1,22 @@
+.likeButton {
+    cursor: pointer;
+    display: block;
+}
+    
+input {
+    position: absolute;
+    visibility: hidden;
+}
+
+input:checked + svg path {
+    fill: red;
+    stroke: red;
+}
+
+svg {
+    transition: transform .2s;
+}
+
+svg:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,78 @@
+@value light-blue: #99A7C7;
+@value dark-blue: #485470;
+
+.collectionCard {
+    display: flex;
+    border: 1.6px solid dark-blue;
+    border-radius: 8px;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+}
+
+.picture {
+
+}
+
+.picture img {
+    display: block;
+    height: 100%;
+    width: 132px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius:  8px 0 0 8px;
+    border-right: 1.6px solid dark-blue;
+}
+
+.info {
+    color: dark-blue;
+    padding: 20px;
+    width: 100%;
+}
+
+.top {
+    margin-bottom: 18px;
+}
+
+.top h3 {
+    color: dark-blue;
+    display: flex;
+    align-items: center;
+}
+
+.number {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: light-blue ;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.data {
+    display: flex;
+}
+
+.bottom img {
+   margin-right: 8px;
+}
+
+.bottom h3 {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: dark-blue;
+    cursor: pointer;
+}
+
+.right {
+    padding-top: 80px;
+}
+
