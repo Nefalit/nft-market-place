@@ -3,10 +3,14 @@
 @value dark-blue: #284B54;
 
 
+* {
+    color: white;
+}
 
 footer {
     background-color: grey;
     padding: 0 68px;
+    margin-top: 38px;
 }
 
 .wrapper {

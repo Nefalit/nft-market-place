@@ -2,10 +2,12 @@
 @value dark-blue: #485470;
 
 .itemCard {
-    border: 1.4px solid dark-blue;
+    border: 1.6px solid dark-blue;
     border-radius: 8px;
     padding: 20px;
     width: 100%;
+    background-color: white;
+    z-index: 100;
 }
 
 .picture {
@@ -56,10 +58,4 @@
 .bottom {
     display: flex;
     justify-content: space-between;
-}
-
-.bottom img {
-    cursor: pointer;
-    transition: 0.2s;
-    background-color: ;
 }

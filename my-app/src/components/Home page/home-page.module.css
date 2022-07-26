@@ -1,0 +1,68 @@
+@value black: #1C2541;
+
+.layer {
+    position: absolute;
+    top: -108px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    width: 100%;
+}
+
+.slogan h1 {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: center;
+    color: black;
+    margin-top: 94px;
+    margin-bottom: 136px;
+}
+
+.slogan h1 span {
+    font-weight: 400;
+    color: black;
+}
+
+.slogan h1 strong {
+    font-weight: 800;
+    color: black;
+    position: relative;
+    z-index: 2;
+}
+
+.slogan h1 strong::after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: calc(100% - 12px) ;
+    height: 38px;
+    background: rgba(166, 97, 255, 0.3);
+    bottom: 6px;
+    left: 20px;
+    z-index: -1;
+}
+
+.cards {
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 38px;
+    padding: 68px;
+    width: 100%;
+    margin-bottom: 216px;
+}
+
+.cards > div:nth-child(1) {
+    transform: rotate(-1deg) translateX(20px);
+}
+
+.cards > div:nth-child(2),
+.cards > div:nth-child(4) {
+    transform: rotate(10deg) translateY(116px) translateX(20px);
+}
+
+.cards > div:nth-child(3) {
+    transform: rotate(-1deg) translateY(32px);
+}
