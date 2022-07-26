@@ -22,7 +22,7 @@
     margin-right: 10px;
 }
 
-.filterButton img:hover {
+.filterButton:hover img {
     transform: translateX(-4px);
 }
 
@@ -35,7 +35,7 @@
     transition: transform 0.25s;
 }
 
-.filterButton span:hover {
+.filterButton:hover span {
     transform: translateX(4px);
 }
 

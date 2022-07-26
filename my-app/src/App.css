@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Manrope:wght@400;700;800&family=Roboto+Slab&display=swap');
-
+@value black: #1C2541;
 
 * {
   font-family: 'Manrope';
@@ -8,10 +8,50 @@
   box-sizing: border-box;
 }
 
+.discoverMore h2 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 48px;
+  color: #1C2541;
+  padding: 30px 68px;
+}
+
+.discoverMore h2 strong {
+  font-weight: 800;
+  color: black;
+  position: relative;
+  z-index: 2;
+}
+
+.discoverMore h2 strong::after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: calc(100% + 2px) ;
+  height: 18px;
+  background: #FFB8DA;
+  top: 28px;
+  z-index: -1;
+}
+
+.topFilter {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 68px;
+}
+
+.leftCorner {
+  display: flex;
+}
+
+.sort {
+  margin-right: 14px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 24px;
-  padding: 68px;
+  padding: 30px 68px;
   width: 100%;
 }
